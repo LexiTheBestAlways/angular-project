@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// NAVVVVVVVVVVVVVVVVVV!!!!!!!!!
+
+header {
+    height: 422px;
+    width: 1440px;
+}
+
+.magla_bg {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        overflow: hidden;
+        background: url(./inner_banner.jpg) no-repeat;
+        background-position: top;
+        background-attachment: fixed;
+        height: 389px;
+}
+
+svg {
+    height: 30px;
+}
+
+
+// i give up
+
+
+
+.title, h2 {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.cham2 {
+    display: flex;
+    justify-content:space-between;
+    text-decoration: none;
+}
+
+.chamonatvali {
+    height: 93px;
+    width: 1110px;
+    border-bottom: 3px solid red;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    height: 89px;
+    width: 48px;
+}
+
+ul {
+    list-style: none;
+}
+
+.cham2 li:hover {
+    background-color: red;
+}
+
+.cham2 a:hover {
+    color: white;
+}
+
+
+
+// QVEMOT
+
