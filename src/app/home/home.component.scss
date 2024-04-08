@@ -1,12 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap')
 ;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+h1,a,h2 {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+h3, span, label, p, button {
+    font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 // NAVVVVVVVVVVVVVVVVVV!!!!!!!!!
+
+.all{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0,0.8);
+    border-bottom: rgb(255, 0, 0) solid 4px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.nav1{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery{
+    width: 40px;
+    height: 40px;
+}
+.nav11{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.Cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Cart:hover{
+    gap: 40px;
+}
+.all2 {
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background: url(./inner_banner.jpg) no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+  }
+  h6{
+    color: white;
+    list-style: none;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+  }
+  a {
+    color: inherit;
+    text-underline-offset: var(--offset, 0.2em);
+    text-decoration: underline 3px;
+    color: red;
+    transition: --offset 400ms, text-decoration-color 400ms;
+  }
+  .neg {
+    color: inherit;
+    text-underline-offset: var(--offset, 0.2em);
+    text-decoration: underline 3px;
+    color: rgb(0,0,0,0);
+    transition: --offset 400ms, text-decoration-color 400ms;
+  }
+  
+  a:hover,
+  a:focus {
+    --offset: 0.4em;
+    text-decoration-color: yellow;
+  }
+  
+  @supports not (background: paint(something)) {
+    a {
+      transition: text-underline-offset 400ms, text-decoration-color 400ms;
+    }
+    
+    a:hover,
+    a:focus {
+      text-underline-offset: 0.4em;
+    }
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 27px;
+    border-radius: 3px;
+  }
+  .wrapper1 {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .jj1{
+    width: 60px;
+    height: 40px;
+    margin-left: 500px;
+  }
+  .jj2{
+    width: 60px;
+    height: 40px;
+  }
+
+
+
+
+.footer {
+    background-color: red;
+    color: white;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.innertetri{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+// OTHER
+
 
 header {
     height: 422px;
@@ -30,9 +193,7 @@ svg {
 }
 
 
-// i give up
-
-
+// END OF HEADER
 
 .title, h2 {
     margin-top: 100px;
@@ -82,3 +243,162 @@ ul {
 
 // QVEMOT
 
+.containerfilter {
+    background-color: rgba(117, 117, 117, 0.048);
+    top: 200px;
+    left: 300px;
+    width: 238px;
+    height: 310px;
+    border: 2px solid rgba(59, 59, 59, 0.253);
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    margin-top: -150px;
+    margin-left: 160px;
+  }
+  
+  .slider-container {
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  .checkbox1 {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .checkbox2 {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .red-box1 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: red;
+    margin-bottom: 10px;
+    line-height: 45px;
+    cursor: pointer;
+  }
+  
+  .red-box2 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 245px;
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: red;
+    margin-bottom: 10px;
+    line-height: 45px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: red;
+    color: white;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.innertetri{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .nut {
+    margin-left: 5px;
+
+ }
+
+ .veg {
+    margin-left: 5px;
+ }
+
+.red-box1, .red-box2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    gap: -1px;
+}
+
+#myRange {
+    accent-color: red;
+}
+
+
+
+
+
+// MENU
+
+.meniu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.menucard {
+  
+  height: 450px;
+  width: 280px;
+  transition: all 0.5s ease-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  border: 2px solid #0000001f;
+  border-radius: 12px;
+}
+
+.cardbg {
+  background-color: #0000001f;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.menucard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
+}
+
+.price {
+  color: rgb(71, 71, 71);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.addtocartbtn {
+  background-color: #000;
+  color: white;
+  width: 278px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 12px;
+}
